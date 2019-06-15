@@ -1,0 +1,78 @@
+// CHANGE BACKGROUND
+
+document.getElementById("background-btn").addEventListener("click", changeBackground);
+
+function changeBackground(){
+  document.getElementById('background').style.backgroundImage = "url('https://images-na.ssl-images-amazon.com/images/I/919WOjzOY6L._SL1500_.jpg')";
+}
+
+// BUTTON CONTROLS
+
+// controls for left button
+document.getElementById('left').addEventListener('click', moveBallLeft); 
+function moveBallLeft() {
+  var position = document.getElementById('ball').style.left;
+  var newPos = parseInt(position) + 10;
+  document.getElementById('ball').style.left = newPos + 'px';
+}  
+
+//controls for right button
+document.getElementById('left').addEventListener('click', moveBallRight);
+function moveBallRight() {
+  var position = document.getElementById('ball').style.right;
+  var newPos = parseInt(position) + 10;
+  document.getElementById('ball').style.right = newPos + 'px';
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Roberto's code
+
+// controls for changing the background
+document.getElementById("background-btn").addEventListener("click", displayDate);
+// add the background image change code inside of the event listener
+
+
+
+
+// this is the code for changing a background image
+// missing image url
+// document.getElementById('background').style.backgroundImage = "url('')";
+// controls for left button
+document.getElementById('left').addEventListener('click', moveBallLeft() {
+
+    var position = document.getElementById('ball').style.left;
+
+    var newPosition = parseInt(position) + 10;
+
+    document.getElementById('ball').style.left = newPosition + 'px';
+
+});
+
+// controls for right button
+document.getElementById('right').addEventListener('click', function() {
+
+    var position = document.getElementById('ball').style.right;
+
+    var newPosition = parseInt(position) + 10;
+
+    document.getElementById('ball').style.right = newPosition + 'px';
+});
