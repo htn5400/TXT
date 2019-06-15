@@ -1,0 +1,11 @@
+<div id="top">
+  <iframe width="300" height="215"
+  src="https://www.youtube.com/embed/ED6C8NqWZFQ?autoplay=1">
+  </iframe>
+  <h1>Obstacles</h1>
+</div>
+
+<div id="bottom">
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+</div>
