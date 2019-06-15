@@ -1,0 +1,10 @@
+#top{
+  height: 500px;
+}
+
+#bottom{
+  height: 500px;
+  background-color: lightblue;
+}  
+
+
